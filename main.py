@@ -8,10 +8,7 @@ import time
 
 
 def main():
-    options = webdriver.ChromeOptions()
-    prefs = {"download.default_directory": "\output"}
-    options.add_experimental_option("prefs", prefs)
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome()
 
     #Navigate to url
     driver.get('https://itdashboard.gov/')
@@ -58,7 +55,11 @@ def main():
     driver.quit()
 
     #Downloadables file
+    options = webdriver.ChromeOptions()
+    prefs = {"download.default_directory": "\output"}
+    options.add_experimental_option("prefs", prefs)
     for link in links:
+        driver = webdriver.Chrome(options=options)
         driver.get(link)
         time.sleep(5)
         download = driver.find_element_by_xpath(\
