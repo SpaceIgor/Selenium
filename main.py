@@ -7,6 +7,7 @@ import config
 import time
 
 
+
 def main():
     driver = webdriver.Chrome()
 
@@ -66,7 +67,11 @@ def main():
             '/html/body/main/div/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div/div[6]/a')
         download.click()
         time.sleep(10)
-    #driver.quit()
+    driver.quit()
+
+
+
+
 
 
 

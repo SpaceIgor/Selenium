@@ -1,0 +1,213 @@
+Business Case Detail
+UII 422-000000004
+Business Case: Capital Asset Summary
+Part I: Summary Information and Justification (All Capital Assets)
+Section A: Overview & General Information
+Date Investment First Submitted:
+ 
+2017-05-08
+Date of Last Change to Activities:
+ 
+2021-07-29
+Investment Auto Submission Date:
+ 
+Date of Last Investment Detail Update: 
+ 
+2021-04-29
+Date of Last Business Case Update: 
+ 
+2021-04-29
+Date of Last Revision: 
+ 
+2021-07-29
+Agency:
+ 
+422 - National Science Foundation
+   
+     Bureau:
+ 
+00 - Agency-Wide Activity
+1. Name of this Investment:
+ 
+Data Management and Delivery
+2. Unique Investment Identifier (UII):
+ 
+422-000000004
+Section B: Investment Detail
+1.
+  
+ Provide at least one Agency Strategic objective code (
+A-11 Section 230
+) and/or
+Agency Priority Goal code (
+A-11 Section 250
+) that this investment aligns to on
+performance.gov. If this investment aligns to more than one Agency strategic
+objective code and/or Agency Priority goal code list all that apply. If your agency
+does not report to performance.gov please use ﬁ0ﬂ. This is required for Agency IT
+Portfolio Summary Part 1 and Part 2 Investments, not for Part 3 Investments.
+Agency Strategic Objective(s):
+  422SO18171: Processes and Operations: Continually improve agency operations
+Agency Priority Goal(s):
+2.
+  
+ Briefly describe the investment™s return on investment, including benefits
+internal and external to the government and outcomes achieved or planned. 
+NSF™s initial investment of $4 million to stand up and populate an enterprise data
+warehouse, centralized a platform for data access, management and delivery, resulting
+in direct and meaningful benefit for internal staff by providing broad access to
+authoritative data and ﬁcannedﬂ reporting. Prior to the investment in a central data
+warehouse, data marts were being leveraged for use by several individual organizations
+with the Agency, at roughly equivalent cost to NSF™s initial enterprise investment. These
+organizations could not access each other™s data and only had access to data they
+wished to leverage. Continuation of this investment has proven key to meeting NSF™s
+strategic priorities related to data-based decision-making, and has enabled staff to more
+efficiently conduct work in support of NSF™s mission. For example, access to central,
+authoritative data helps NSF staff identify areas of science that may be
+underrepresented or that have gaps in terms of federal funding. NSF staff can use this
+data to create reports, which can help them manage or balance their research portfolios.
+Page  1 / 24 of Business Case
+Date of Last Revision: 2021-07-29
+Business Case (2022)
+Business Case Detail
+UII 422-000001327
+Business Case: Capital Asset Summary
+Part I: Summary Information and Justification (All Capital Assets)
+Section A: Overview & General Information
+Date Investment First Submitted:
+ 
+2010-03-18
+Date of Last Change to Activities:
+ 
+2021-07-29
+Investment Auto Submission Date:
+ 
+Date of Last Investment Detail Update: 
+ 
+2021-04-29
+Date of Last Business Case Update: 
+ 
+2021-04-29
+Date of Last Revision: 
+ 
+2021-07-29
+Agency:
+ 
+422 - National Science Foundation
+   
+     Bureau:
+ 
+00 - Agency-Wide Activity
+1. Name of this Investment:
+ 
+iTRAK
+2. Unique Investment Identifier (UII):
+ 
+422-000001327
+Section B: Investment Detail
+1.
+  
+ Provide at least one Agency Strategic objective code (
+A-11 Section 230
+) and/or
+Agency Priority Goal code (
+A-11 Section 250
+) that this investment aligns to on
+performance.gov. If this investment aligns to more than one Agency strategic
+objective code and/or Agency Priority goal code list all that apply. If your agency
+does not report to performance.gov please use ﬁ0ﬂ. This is required for Agency IT
+Portfolio Summary Part 1 and Part 2 Investments, not for Part 3 Investments.
+Agency Strategic Objective(s):
+  422SO18171: Processes and Operations: Continually improve agency operations
+Agency Priority Goal(s):
+2.
+  
+ Briefly describe the investment™s return on investment, including benefits
+internal and external to the government and outcomes achieved or planned. 
+iTRAK™s initial implementation was on budget and on schedule, as reported previously.
+Since the initial implementation and stabilization in FY15, enhancements have been
+managed and implemented as planned within funding allocations. As well,
+modernization of invoice payment to leverage the Treasury Invoice Processing Platform
+(IPP) has allowed the iTRAK investment to greatly reduce the access of NSF staff to the
+direct system and its reporting platform, thereby reducing the number of help desk
+tickets and user account management actions required. These efficiencies have enabled
+additional system enhancements to be implemented, improving iTRAK™s ability to
+continue meeting Federal Financial Standards. Moving forward, this investment is
+participating in efforts to leverage robotic process automation for certain routine financial
+tasks, which will reduce the risk of manual error when entering transactions into the
+system. Additional iTRAK investment benefits and planned outcomes are as follows: ·
+Increase automation and integration between the financial system and NSF™s grant
+Page  1 / 35 of Business Case
+Date of Last Revision: 2021-07-29
+Business Case (2022)
+Business Case Detail
+UII 422-000001328
+Business Case: Capital Asset Summary
+Part I: Summary Information and Justification (All Capital Assets)
+Section A: Overview & General Information
+Date Investment First Submitted:
+ 
+2010-09-16
+Date of Last Change to Activities:
+ 
+2021-07-29
+Investment Auto Submission Date:
+ 
+Date of Last Investment Detail Update: 
+ 
+2021-04-29
+Date of Last Business Case Update: 
+ 
+2021-04-29
+Date of Last Revision: 
+ 
+2021-07-29
+Agency:
+ 
+422 - National Science Foundation
+   
+     Bureau:
+ 
+00 - Agency-Wide Activity
+1. Name of this Investment:
+ 
+Mission Support Systems
+2. Unique Investment Identifier (UII):
+ 
+422-000001328
+Section B: Investment Detail
+1.
+  
+ Provide at least one Agency Strategic objective code (
+A-11 Section 230
+) and/or
+Agency Priority Goal code (
+A-11 Section 250
+) that this investment aligns to on
+performance.gov. If this investment aligns to more than one Agency strategic
+objective code and/or Agency Priority goal code list all that apply. If your agency
+does not report to performance.gov please use ﬁ0ﬂ. This is required for Agency IT
+Portfolio Summary Part 1 and Part 2 Investments, not for Part 3 Investments.
+Agency Strategic Objective(s):
+  422SO18171: Processes and Operations: Continually improve agency operations
+Agency Priority Goal(s):
+2.
+  
+ Briefly describe the investment™s return on investment, including benefits
+internal and external to the government and outcomes achieved or planned. 
+NSF™s Mission Support Systems, which include applications for grants management,
+proposal submission, panel reviews, award recommendations, and award confirmation,
+are central to NSF™s Merit Review process. These applications serve the research
+community, including researchers, educators, and students across the country who
+participate in the process as well as NSF staff who manage the review of approximately
+50,000 proposals for cutting-edge scientific, engineering, and education research each
+year. NSF™s Mission Support Services enable the research community and NSF staff to
+navigate through NSF business processes easily and quickly, and they continue to
+provide effective mission-support technology solutions for NSF's ongoing grants
+management needs. Additionally, the American taxpayer can leverage these services
+for streamlined, transparent information regarding how their tax dollars are being used to
+fund NSF awards and what outcomes those awards are achieving. As improvements are
+made to internal and external-facing services, this investment will enable NSF™s
+Page  1 / 44 of Business Case
+Date of Last Revision: 2021-07-29
+Business Case (2022)
