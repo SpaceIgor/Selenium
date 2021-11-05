@@ -7,13 +7,13 @@ import config
 import time
 
 
+driver = webdriver.Chrome()
 
-def main():
-    driver = webdriver.Chrome()
+# Navigate to url
+driver.get('https://itdashboard.gov/')
 
-    #Navigate to url
-    driver.get('https://itdashboard.gov/')
 
+def create_table():
     #Time of wait
     driver.implicitly_wait(5)
 
@@ -34,11 +34,13 @@ def main():
     dictionary = {'department': agencies, 'amount': spendings, }
     df = pd.DataFrame(data=dictionary).drop_duplicates(ignore_index=True)
     df.to_excel('output/Agencies.xlsx', index=False)
-
-    #Openening the file and work on it -> open_web_page
+    # Openening the file and work on it -> open_web_page
     agency = departments[agencies.index(config.agency)].click()
     time.sleep(8)
+    return print('File Agencies created')
 
+
+def get_data():
     #Displaying the entire table
     selector = driver.find_element_by_xpath(\
         "/html/body/main/div/div/div/div[4]/div/div/div/div[2]/div/div[1]/div/div/div/div/div[2]/div[2]/div/label/select/option[4]")
@@ -70,17 +72,13 @@ def main():
     driver.quit()
 
 
+def main():
+    create_table()
+    get_data()
 
 
 
-
-
-
-
-
-
-
-if '__name__' == '__main__':
+if __name__ == '__main__':
     main()
 
 

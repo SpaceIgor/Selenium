@@ -3,7 +3,7 @@ tasks:
     command:
       - python
       - main.py
-      - task_2.py
+      - task.py
 
 condaConfigFile: conda.yaml
 artifactsDir: output
