@@ -56,12 +56,13 @@ def field_comprasion():
 
     for key, value in dictionary_investment_from_exel.items():
         if not dictionary_investment_from_pdf.get(key):
-            print(f'Name of this Investment not in column: {key}')
-        elif dictionary_investment_from_pdf.get(key)==value:
-            print(f'The value of the fields is present in the table and they match.{key}:{value}')
+            print(f'In {value} no attached pdf file')
+        elif dictionary_investment_from_pdf.get(key) == value:
+            print(f'The value of the fields is present in the table and they match with pdf file.{key}:{value}')
         else:
             print('Name of this Investment equal Investment Title')
             print('Unique Investment Identifier (UII) not equal value in column UII')
+
 
 
 def task():

@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 import pandas as pd
 import config
-import time
 
 
 driver = webdriver.Chrome()
@@ -15,15 +14,15 @@ driver.get('https://itdashboard.gov/')
 
 def create_table():
     #Time of wait
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)
 
     #Now click on button
     dive_button = driver.find_element(By.LINK_TEXT, value='DIVE IN')
     dive_button.click()
-    time.sleep(5)
+    driver.implicitly_wait(10)
 
     #Gets all departments and amounts -> objects
-    WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="agency-tiles-container"]')))
+    WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="agency-tiles-container"]')))
     departments = driver.find_elements(By.XPATH, '//div[@id="agency-tiles-widget"]//span[@class="h4 w200"]')
     amounts = driver.find_elements(By.XPATH, '//div[@id="agency-tiles-widget"]//span[@class=" h1 w900"]')
 
@@ -36,7 +35,7 @@ def create_table():
     df.to_excel('output/Agencies.xlsx', index=False)
     # Openening the file and work on it -> open_web_page
     agency = departments[agencies.index(config.agency)].click()
-    time.sleep(8)
+    driver.implicitly_wait(10)
     return print('File Agencies created')
 
 
@@ -45,7 +44,7 @@ def get_data():
     selector = driver.find_element_by_xpath(\
         "/html/body/main/div/div/div/div[4]/div/div/div/div[2]/div/div[1]/div/div/div/div/div[2]/div[2]/div/label/select/option[4]")
     selector.click()
-    time.sleep(10)
+    driver.implicitly_wait(10)
 
     table = driver.find_element_by_id("investments-table-container")
     pd_table = pd.read_html(table.get_attribute("outerHTML"))
@@ -54,7 +53,7 @@ def get_data():
     #Getting links
     links_column = table.find_elements_by_tag_name("a")
     links = [item.get_attribute('href') for item in links_column if item.get_attribute('href') != None]
-    time.sleep(5)
+    driver.implicitly_wait(10)
     driver.quit()
 
     #Downloadables file
@@ -64,11 +63,11 @@ def get_data():
     for link in links:
         driver = webdriver.Chrome(options=options)
         driver.get(link)
-        time.sleep(5)
+        driver.implicitly_wait(10)
         download = driver.find_element_by_xpath(\
             '/html/body/main/div/div/div/div[1]/div/div/div/div/div[1]/div/div/div/div/div[6]/a')
         download.click()
-        time.sleep(10)
+        driver.implicitly_wait(10)
     driver.quit()
 
 
